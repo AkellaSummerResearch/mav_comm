@@ -22,7 +22,7 @@
 #include <Eigen/Eigen>
 #include <vector>
 
-namespace planning_msgs {
+namespace mav_planning_msgs {
 
 struct EigenPolynomialSegment {
   EigenPolynomialSegment() : segment_time_ns(0), num_coeffs(0) {};
